@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding-assignment03</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+        <!-- Create a new website using HTML and Bootstrap. 
+The website must include the following:
+At least 2 pages.
+A Bootstrap navbar, table, and form.
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small
+ -->
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vegas Vibra Djs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="other.html">Packages</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Meet the Djs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Social Media</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+          </div>
+
+        </div>
+      </nav>
+
+      <!-- Hero -->
+       <div>
+            <img class="img-fluid" src="./img/VVBanner.png"  alt="Dj company logo" width="2000px">
+       </div>
+
+       <!-- Welcome -->
+       <h1 class="text-center mt-5 p-5">We bring the party to you!</h1>
+
+       <section class="container text-center fs-4 mb-5 p-5">
+        <p>
+            Make your next event a party to remember!
+        </p>
+        <p>
+            Nightclub experience no matter what the occasion is!
+        </p>
+        <p>
+            Professional DJs ready with years of musical experience will have the dancefloor packed all night!
+        </p>
+       </section>
+
+       <!-- Cards -->
+       <div class="container text-center mb-5 fs-2"> 
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card h-100 shadow-lg">
+                        <img src="./img/house party.png" class="card-img-top img-fluid" alt="house party Dj">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3">Packages</h5>
+                          <p class="card-text fs-4">Find out what package fits your event the best!</p>
+                          <a href="other.html" class="btn btn-outline-secondary">Packages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card h-100 shadow-lg">
+                        <img src="./img/meet the dj.jpg" class="card-img-top img-fluid" alt="photo of dj">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3">Meet The DJs</h5>
+                          <p class="card-text fs-4">See what amazing djs we have on our team!</p>
+                          <a href="other.html" class="btn btn-outline-secondary">Book here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card h-100 shadow-lg">
+                        <img src="./img/1.png" class="card-img-top img-fluid" alt="photo of dj">
+                        <div class="card-body">
+                          <h5 class="card-title fs-3">Follow us on Social Media</h5>
+                          <p class="card-text fs-4">See our past events here!</p>
+                          <a href="other.html" class="btn btn-outline-secondary">Follow</a>
+                        </div>
+            </div>
+        </div>
+
+        <!-- Pic Div -->
+
+          <div class="container text-center mb-5 mt-5 pt-5 pb-5">
+            <div class="row align-items-start">
+            </div>
+                <h1>Celebrate your next event with us!</h1>
+            </div>
+
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="./img/dancing 3.jpg" alt="people dancing" width="400px" height="200px">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="./img/dj1.jpg" alt="dj" width="400px" height="200px">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="./img/dancing 4.jpg" alt="people dancing" width="400px" height="200px">
+                </div>
+            </div>    
+        </div>
+          </div>
+    
+          <!-- Contact form -->
+
+          <h1 class="text-center mt-5 pt-5">Inquire to book a party</h1>
+          <h2 class="text-center mb-5">Fill out the details below!</h2>
+
+          <form class="row g-3 mb-5 ms-3 me-3 pt-5">
+
+                <div class="col-md-6">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input type="text" class="form-control" aria-label="First name" id="firstname">
+                </div>
+                <div class="col-md-6">
+                    <label for="lastname" class="form-label">Last Name</label>
+                  <input type="text" class="form-control"  aria-label="Last name" id="lastname">
+                </div>
+
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="phonenumber" class="form-label">Phone Number</label>
+              <input type="phonenumber" class="form-control" id="phonenumber">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+    <!-- footer -->
+     <footer>
+        <div class="text-center p-5">
+            <h5>Vegas Vibra Djs Incoorperated copyrighted 2025</h5>
+        </div>
+    </footer>
+
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
